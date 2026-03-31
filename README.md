@@ -1,4 +1,5 @@
 # MIVA System Overview
+### Implementation details are intentionally omitted. This README provides a general overview of the system only.
 
 ## 1. Overview
 MIVA is a real-time, highly scalable matchmaking and social connection platform. It uses a decoupled, event-driven microservices architecture to ingest users, find compatible matches based on specific criteria (age, gender, country, mood, etc.), and establish mutually agreed real-time sessions. The core user flow involves authenticating via HTTP, opening a persistent WebSocket connection, specifying matching criteria, and entering a matchmaking pool. Behind the scenes, the system batches, processes, pairs, and delivers results with strict latency and scalability considerations.
